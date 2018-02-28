@@ -10,6 +10,15 @@ namespace IsOdd
 	{
 		static void Main(string[] args)
 		{
+			ushort num;
+			num = 10;
+			if ((num & 1) == 1)
+				Console.WriteLine("He выводится.");
+			num = 11;
+			if ((num & 1) == 1)
+				Console.WriteLine(num + " — нечетное число.");
 		}
+	
+
 	}
 }
